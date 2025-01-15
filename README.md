@@ -1,5 +1,1 @@
-Mini Project Portfolio Website
-
-RevoU Fundamental Course Software Engineer
-
-Created by Dzikrul Hakim
+Mini Project Portfolio by Dzikrul Hakim
