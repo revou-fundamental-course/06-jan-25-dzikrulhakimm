@@ -1,95 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <!-- CSS -->
-     <link rel="stylesheet" href="css\style.css">
+    <title>Mini Project Portfolio by Dzikrul Hakim</title>
+    <link rel="stylesheet" href="css\style.css">
 </head>
-
 <body>
-    <!-- Logo & Navigation -->
-    <header class="main-header">
-        <!-- Logo -->
-         <div class="logo-icon"></div>
-
-         <!-- Navigation -->
-          <nav>
-            <a href="#home-page" class="left-rounded">Home</a>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="assets/revou.png" alt="Logo" onclick="window.open('https://www.revou.co/?utm_source=sem&gclid=CjwKCAiA9vS6BhA9EiwAJpnXw3FA1s_pzt3hgCjgGdDG6VY-tThy1pfMUsCj58akQGTXP_DE7hvsUxoCsHwQAvD_BwE&utm_content=id_fp_branded_high_conversion_revou--revou_e_c&gad_source=1&utm_medium=cpc#our-programs')">
+        </div>
+        <nav>
+            <a href="#home" class="left-rounded">Home</a>
             <a href="#education">Education</a>
             <a href="#experience">Experience</a>
-            <a href="#contact-me" class="right-rounded">Contact Me</a>
-          </nav>
+            <a href="#contact" class="right-rounded">Contact Me</a>
+        </nav>
     </header>
 
-    <hr />
-
-    <!-- Main Content -->
+    <!-- Home -->
     <main>
-        <!-- Home Page -->
-        <section>
-            <!-- Title -->
-            <header id="home-page">
-                <h1>Hi <span id="user-greeting">User</span>, Welcome to our Website</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </header>
-
-            <div class="banner-image">
-
+        <section class="hero" id="home">
+            <div class="slider-container">
+                <div class="slider-item">
+                    <img src="assets/circle-3.png" alt="html">
+                    <div class="slider-content">
+                        <h2 class="slider-title">HTML</h2>
+                        <p class="slider-desc">This is a Software Engineering mini project portfolio.<br>
+                            There are 3 programming languages ​​learned!</p>
+                        <a class="slider-action" href="https://apply.revou.co/fundamental-course-swe?source=webmc&_gl=1*6bou5f*_gcl_aw*R0NMLjE3MzY5MjcwMjUuQ2p3S0NBaUE5dlM2QmhBOUVpd0FKcG5YdzNGQTFzX3B6dDNoZ0NqZ0dkREc2VlktdFRoeTFwZk1Vc0NqNThha1FHVFhQX0RFN2h2c1V4b0NzSHdRQXZEX0J3RQ..*_gcl_au*MTU4MjQ1MDM0Ny4xNzM0MTkyMTIx">Course</a>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img src="assets/circle-1.png" alt="css">
+                    <div class="slider-content">
+                        <h2 class="slider-title">CSS</h2>
+                        <p class="slider-desc">This is a Software Engineering mini project portfolio.<br>
+                            There are 3 programming languages ​​learned!</p>
+                        <a class="slider-action" href="https://apply.revou.co/fundamental-course-swe?source=webmc&_gl=1*6bou5f*_gcl_aw*R0NMLjE3MzY5MjcwMjUuQ2p3S0NBaUE5dlM2QmhBOUVpd0FKcG5YdzNGQTFzX3B6dDNoZ0NqZ0dkREc2VlktdFRoeTFwZk1Vc0NqNThha1FHVFhQX0RFN2h2c1V4b0NzSHdRQXZEX0J3RQ..*_gcl_au*MTU4MjQ1MDM0Ny4xNzM0MTkyMTIx">Course</a>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img src="assets/circle-2.png" alt="js">
+                    <div class="slider-content">
+                        <h2 class="slider-title">Javascript</h2>
+                        <p class="slider-desc">This is a Software Engineering mini project portfolio.<br>
+                            There are 3 programming languages ​​learned!</p>
+                        <a class="slider-action" href="https://apply.revou.co/fundamental-course-swe?source=webmc&_gl=1*6bou5f*_gcl_aw*R0NMLjE3MzY5MjcwMjUuQ2p3S0NBaUE5dlM2QmhBOUVpd0FKcG5YdzNGQTFzX3B6dDNoZ0NqZ0dkREc2VlktdFRoeTFwZk1Vc0NqNThha1FHVFhQX0RFN2h2c1V4b0NzSHdRQXZEX0J3RQ..*_gcl_au*MTU4MjQ1MDM0Ny4xNzM0MTkyMTIx">Course</a>
+                    </div>
+                </div>
             </div>
         </section>
+        <br><br><br>
+        <hr />
 
         <!-- Education -->
-         <section>
-            <!-- Title -->
-             <header id="education">
-                <h1>Education</h1>
-                    <ul>
-                        <h3>Kuliah</h3>
-                        <p>Institut Teknologi Nasional Bandung</p>
-                        <h3>SMA</h3>
-                        <p>SMA Negeri 1 Cianjur</p>
-                        <h3>SMP</h3>
-                        <p>SMP Negeri 4 Cianjur</p>
-                        <h3>SD</h3>
-                        <p>SD Negeri Ibu Dewi 2 Cianjur</p>
-                    </ul>
-             </header>
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-list">
+                <div class="education-item">
+                    <div class="kuliah">
+                        <img src="assets/kuliah.png" alt="kuliah">
+                    <h3>Institut Teknologi Nasional Bandung</h3>
+                    <p>2020 - Present</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="sma">
+                        <img src="assets/sma.png" alt="sma">
+                    <h3>SMA Negeri 1 Cianjur</h3>
+                    <p>2017 - 2020</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="smp">
+                        <img src="assets/smp.png" alt="smp">
+                    <h3>SMP Negeri 4 Cianjur</h3>
+                    <p>2014 - 2017</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="sd">
+                        <img src="assets/sd.png" alt="sd">
+                    <h3>SD Negeri Ibu Dewi 2 Cianjur</h3>
+                    <p>2008 - 2014</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br><br>
+        <hr />
 
-             <div class="content"></div>
-             
-         </section>
-
-         <!-- Experience -->
-         <section>
-            <!-- Title -->
-            <header id="experience">
-                <h1>Experience</h1>
-             </header>
-
-             <div class="content"></div>
-         </section>
-
-         <!-- Contact Me -->
-         <section>
-            <!-- Title -->
-            <header id="contact-me">
-                <h1>Contact Me</h1>
-             </header>
-
-             <div class="content"></div>
-         </section>
+        <!-- Experience -->
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <div class="bpn">
+                    <img src="assets/bpn.png" alt="bpn">
+                </div>
+                <h3>UI/UX Designer</h3>
+                <h4>Kementerian ATR/BPN Republik Indonesia - Kantor Wilayah Badan Pertanahan Nasional · Internship</h4>
+                <p>Jul 2024 - Sep 2024 · 3 months</p>
+                <p>Bandung, Jawa Barat, Indonesia</p>
+                <div class="sertifikat">
+                    <img src="assets/sertifikat.png" alt="sertifikat">
+                </div>
+            </div>
+        </section>
+        <br><br><br>
+        <hr />
+        
+        <!-- Contact Me -->
+        <section class="message-us" id="contact">
+            <h2>Contact Me</h2>
+            <p>I'm open for any suggestion or just to have a chat</p><br>
+            <div class="message-container">
+                <form onsubmit="return handleSubmit(event)">
+                    <label for="name">Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required> 
+                    <label for="dob">Date of Birth :</label>
+                    <input type="date" id="dob" name="dob" required>
+                    <label for="gender">Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                    <div class="gender">
+                        <input type="radio" id="male" name="gender" value="Male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female" required>
+                        <label for="female">Female</label>
+                    </div>
+                    <label for="message">Message &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                    <textarea id="message" name="message" placeholder="Write a Message..." required></textarea> 
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="info">
+                    <p><b>Current Time </b>:</p>
+                    <p><b>Name </b>:</p>
+                    <p><b>Date of Birth </b>:</p>
+                    <p><b>Gender </b>:</p>
+                    <p><b>Message </b>:</p>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="email">
+                    <img src="assets/email.png" alt="email" onclick="window.open('https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMvRpMCTCkPGQfCSLBVHChWMnFDqnJktMHFkJJVLMWwmqpJfTgwTkvZlvlXMhMnrNPfDnM')">
+                    <p alt="email" onclick="window.open('https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMvRpMCTCkPGQfCSLBVHChWMnFDqnJktMHFkJJVLMWwmqpJfTgwTkvZlvlXMhMnrNPfDnM')"><p>dzikrulhakimm21@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="phone">
+                    <img src="assets/phone.png">
+                    <p>+62 812-8411-1082</p>
+                </div>
+            </div> 
+            <div class="contact-info">
+                <div class="instagram">
+                    <img src="assets/instagram.png" alt="instagram" onclick="window.open('https://www.instagram.com/dzikrulhakimm/')">
+                    <p alt="instagram" onclick="window.open('https://www.instagram.com/dzikrulhakimm/')"><p>@dzikrulhakimm</p>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="linkedin">
+                    <img src="assets/linkedin.png" alt="linkedin" onclick="window.open('https://www.linkedin.com/in/dzikrulhakim')">
+                    <p alt="linkedin" onclick="window.open('https://www.linkedin.com/in/dzikrulhakim')"><p>Dzikrul Hakim</p>
+                </div>
+            </div>
+        </section>
+        <br><br><br>
+        <button id="back-to-top-btn" title="Back to Top">&uarr;</button>
     </main>
-
-    <hr />
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 - All rights reserved</p>
+        <div class="by">
+            <p>Created by Dzikrul Hakim</p>
+        </div>
     </footer>
+    <script src="js\script.js"></script>
 </body>
-
 </html>
